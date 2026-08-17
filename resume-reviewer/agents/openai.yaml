@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume Reviewer"
+  short_description: "Build truthful ATS-ready tech resumes"
+  default_prompt: "Use $resume-reviewer to build my verified Core Resume or tailor an application resume to a specific job description."
