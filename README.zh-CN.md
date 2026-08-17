@@ -1,6 +1,9 @@
 # ResumeReviewer
 
-[English](README.en.md) | [简体中文](README.zh-CN.md)
+<p align="center">
+  <a href="README.md">English</a> ·
+  <b>简体中文</b>
+</p>
 
 ResumeReviewer 是面向美国科技岗位的 Codex 简历 skill，主要服务计算机专业实习生和应届毕业生。它将可复用的真实经历证据与针对单个岗位的投递内容严格分开。
 
