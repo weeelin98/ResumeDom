@@ -65,16 +65,17 @@ Never invent numbers. Use verified alternatives:
 - **Adoption:** used by project team, accepted by mentor, merged into shared repository, selected for demonstration.
 - **Frequency:** automated recurring workflow, supported daily operation, generated repeatable build.
 
-## Core Resume Content
+## Core Resume Record
 
-Core Resume is evidence source, not one-job submission. Preserve complete verified material in reverse chronology:
+Core Resume is internal evidence record, not a polished resume and not a one-job submission. Its only purpose is to preserve truthful career history for later selection. Do not optimize wording, relevance, length, or keywords for any posting.
+
+Record each claim with source and status. Keep `NEEDS CONFIRMATION` items visibly unresolved; never mix them with verified facts. Preserve complete verified material in reverse chronology:
 
 1. Contact information
-2. Optional target role family or evidence-backed summary
-3. Education
-4. Experience
-5. Projects
-6. Research, publications, awards, or relevant leadership
-7. Skills at very end
+2. Education
+3. Experience
+4. Projects
+5. Research, publications, awards, or relevant leadership
+6. Skills at very end
 
-Retain original facts and fuller bullet inventory. Application Resume selects from this source without overwriting it.
+Retain original facts and fuller evidence inventory even when record exceeds one page. Label it `Core Resume Record - Not for Submission`. Application Resume selects from this source without overwriting it.

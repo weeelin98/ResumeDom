@@ -17,30 +17,37 @@ Choose strongest evidence order while keeping Skills last.
 ### Typical New Graduate
 
 1. Contact information
-2. Optional target title or concise evidence-backed summary
-3. Education
-4. Experience
-5. Projects
-6. Research, awards, publications, or relevant leadership
-7. Skills
+2. Education
+3. Experience
+4. Projects
+5. Research, awards, publications, or relevant leadership
+6. Skills
 
 ### New Graduate With Strong Internship Experience
 
 1. Contact information
-2. Optional target title or concise evidence-backed summary
-3. Experience
-4. Education
-5. Projects or research
-6. Skills
+2. Experience
+3. Education
+4. Projects or research
+5. Skills
 
-Omit generic summary when it repeats education or skills without proof.
+Omit Summary from Application Resume.
+
+## Entry Alignment
+
+- Education row 1: university left; city right.
+- Education row 2: degree left; dates right.
+- Do not include coursework in Application Resume.
+- Experience row 1: company left; city right.
+- Experience row 2: official job title left; dates right.
+- Use exactly 3 bullets for every included Experience entry.
 
 ## Content and Length
 
 - Use one page when light experience fits clearly; use two pages when relevant evidence justifies space.
 - Prioritize recent and target-relevant proof. Do not force every role into identical bullet count.
 - Keep unrelated work when it proves target requirements or maintains useful chronology; otherwise reduce or omit it.
-- Convert coursework into project or applied evidence instead of listing many course titles.
+- Convert coursework into project or applied evidence instead of listing coursework in Application Resume.
 - Omit high school after college begins unless exceptional, directly relevant evidence requires it.
 
 ## Keywords
