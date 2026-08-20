@@ -1,0 +1,143 @@
+% ResumeReviewer Application Resume template
+% Compile with XeLaTeX or LuaLaTeX.
+% Replace placeholders only with verified candidate information.
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[top=0.42in,bottom=0.42in,left=0.52in,right=0.52in]{geometry}
+\usepackage{fontspec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{xurl}
+
+\IfFontExistsTF{Times New Roman}
+  {\setmainfont{Times New Roman}}
+  {\setmainfont{TeX Gyre Termes}}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+\urlstyle{same}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\emergencystretch}{1em}
+
+\newcommand{\bodyfont}{\fontsize{10.5pt}{11.6pt}\selectfont}
+\newcommand{\namefont}{\fontsize{18pt}{19.5pt}\selectfont\bfseries}
+\newcommand{\sectionfont}{\fontsize{11pt}{12pt}\selectfont\bfseries}
+\newcommand{\placeholder}[1]{[#1]}
+
+\newcommand{\resumeSection}[1]{%
+  \vspace{4pt}%
+  {\sectionfont\MakeUppercase{#1}}\par
+  \vspace{1pt}\hrule height 0.45pt\vspace{2pt}%
+}
+
+\newcommand{\resumeEntry}[4]{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{#1} & #2 \\
+    \textbf{#3} & #4 \\
+  \end{tabular*}\vspace{-1pt}%
+}
+
+\newcommand{\educationEntry}[4]{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{#1} & #2 \\
+    #3 & #4 \\
+  \end{tabular*}\vspace{-1pt}%
+}
+
+\newcommand{\projectEntry}[3]{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{#1} & #2 \\
+  \end{tabular*}\par
+  {\itshape #3}\par\vspace{-2pt}%
+}
+
+\newenvironment{resumeBullets}{%
+  \begin{itemize}[
+    leftmargin=0.17in,
+    label=\textbullet,
+    itemsep=0pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+  ]
+}{%
+  \end{itemize}\vspace{1pt}%
+}
+
+\begin{document}
+\bodyfont
+
+\begin{center}
+  {\namefont \placeholder{FULL NAME}}\par
+  \vspace{1pt}
+  \placeholder{Phone}
+  \enspace|\enspace
+  \placeholder{Email}
+  \enspace|\enspace
+  \placeholder{LinkedIn}
+  \enspace|\enspace
+  \placeholder{Work Authorization - Optional}
+\end{center}
+\vspace{-6pt}
+
+\resumeSection{Education}
+\educationEntry
+  {\placeholder{University Name}}
+  {\placeholder{City, State / Country}}
+  {\placeholder{Degree, Major or Track}}
+  {\placeholder{Month Year - Month Year}}
+
+\resumeSection{Experience}
+\resumeEntry
+  {\placeholder{Company Name}}
+  {\placeholder{City, State / Country}}
+  {\placeholder{Official Job Title}}
+  {\placeholder{Month Year - Month Year}}
+\begin{resumeBullets}
+  \item \placeholder{Verified action, technology, work, and impact.}
+  \item \placeholder{Verified action, technology, work, and impact.}
+  \item \placeholder{Verified action, technology, work, and impact.}
+\end{resumeBullets}
+
+% Duplicate resumeEntry block for each additional Experience entry.
+\resumeEntry
+  {\placeholder{Company Name}}
+  {\placeholder{City, State / Country}}
+  {\placeholder{Official Job Title}}
+  {\placeholder{Month Year - Month Year}}
+\begin{resumeBullets}
+  \item \placeholder{Verified action, technology, work, and impact.}
+  \item \placeholder{Verified action, technology, work, and impact.}
+  \item \placeholder{Verified action, technology, work, and impact.}
+\end{resumeBullets}
+
+\resumeSection{Projects}
+\projectEntry
+  {\placeholder{Project Name}}
+  {\placeholder{Month Year - Month Year}}
+  {\placeholder{Technology Stack} | \placeholder{Repository or Demo}}
+\begin{resumeBullets}
+  \item \placeholder{Verified technical contribution and impact.}
+  \item \placeholder{Verified technical contribution and impact.}
+  \item \placeholder{Verified technical contribution and impact.}
+\end{resumeBullets}
+
+\projectEntry
+  {\placeholder{Project Name}}
+  {\placeholder{Month Year - Month Year}}
+  {\placeholder{Technology Stack} | \placeholder{Repository or Demo}}
+\begin{resumeBullets}
+  \item \placeholder{Verified technical contribution and impact.}
+  \item \placeholder{Verified technical contribution and impact.}
+\end{resumeBullets}
+
+\resumeSection{Skills}
+\textbf{Languages:} \placeholder{Verified languages}\\
+\textbf{Frameworks and AI/ML:} \placeholder{Verified frameworks, libraries, and methods}\\
+\textbf{Backend and Data:} \placeholder{Verified APIs, databases, and data systems}\\
+\textbf{Tools and Platforms:} \placeholder{Verified tools and platforms}
+
+\end{document}
