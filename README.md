@@ -1,6 +1,6 @@
 <div align="center">
 
-# ResumeReviewer
+# ResumeDom
 
 **Build one truthful career record. Tailor every application without inventing evidence.**
 
@@ -13,7 +13,7 @@
 
 </div>
 
-ResumeReviewer is an evidence-first Codex skill for US technology resumes. It assesses existing resumes, turns scattered source material into a factual Core Resume Record, and builds job-specific Application Resumes from verified evidence only.
+ResumeDom is a Codex skill for reviewing, rewriting, tailoring, and generating evidence-backed US technology resumes.
 
 > One source of truth for career facts; one focused resume for each application.
 

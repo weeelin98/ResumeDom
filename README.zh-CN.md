@@ -1,6 +1,6 @@
 <div align="center">
 
-# ResumeReviewer
+# ResumeDom
 
 **建立一份真实职业记录，为每次投递精准定制，绝不虚构证据。**
 
@@ -13,7 +13,7 @@
 
 </div>
 
-ResumeReviewer 是面向美国科技岗位、以事实证据为核心的 Codex 简历 skill。它可以评估现有简历，将分散资料整理成真实 Core Resume Record，并且只使用经过验证的证据生成岗位专属 Application Resume。
+ResumeDom 是面向美国科技岗位、以事实证据为核心的 Codex 简历 skill。它可以评估、修改、定制并生成基于证据的美国科技简历。
 
 > 一份职业事实来源，为每个岗位生成一份聚焦的投递简历。
 
