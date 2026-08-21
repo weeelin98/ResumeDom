@@ -1,6 +1,6 @@
 <div align="center">
 
-# ResumeReviewer
+# ResumeDom
 
 **建立一份真实职业记录，为每次投递精准定制，绝不虚构证据。**
 
@@ -13,7 +13,7 @@
 
 </div>
 
-ResumeReviewer 是面向美国科技岗位、以事实证据为核心的 Codex 简历 skill。它可以评估现有简历，将分散资料整理成真实 Core Resume Record，并且只使用经过验证的证据生成岗位专属 Application Resume。
+ResumeDom 是面向美国科技岗位、以事实证据为核心的 Codex 简历 skill。它可以评估、修改、定制并生成基于证据的美国科技简历。
 
 > 一份职业事实来源，为每个岗位生成一份聚焦的投递简历。
 
@@ -24,7 +24,7 @@ ResumeReviewer 是面向美国科技岗位、以事实证据为核心的 Codex �
 让 Codex 直接从 GitHub 安装：
 
 ```text
-Use $skill-installer to install https://github.com/weeelin98/ResumeReviewer/tree/main/resume-reviewer
+Use $skill-installer to install https://github.com/weeelin98/ResumeDom/tree/main/resume-reviewer
 ```
 
 安装后可以从以下任一提示开始：
@@ -50,7 +50,7 @@ Use $resume-reviewer to tailor my Core Resume Record to this job description and
 
 ```bash
 python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
-  --repo weeelin98/ResumeReviewer \
+  --repo weeelin98/ResumeDom \
   --path resume-reviewer
 ```
 
@@ -61,8 +61,8 @@ python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/inst
 希望执行 `git pull` 后直接使用最新版本时，可以创建符号链接：
 
 ```bash
-git clone https://github.com/weeelin98/ResumeReviewer.git
-ln -s "$(pwd)/ResumeReviewer/resume-reviewer" "${CODEX_HOME:-$HOME/.codex}/skills/resume-reviewer"
+git clone https://github.com/weeelin98/ResumeDom.git
+ln -s "$(pwd)/ResumeDom/resume-reviewer" "${CODEX_HOME:-$HOME/.codex}/skills/resume-reviewer"
 ```
 
 仅在目标路径不存在时创建链接。安装或更新后，请开启新一轮 Codex 对话。
