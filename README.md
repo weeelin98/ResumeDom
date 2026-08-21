@@ -186,9 +186,5 @@ resume-reviewer/
 - Laura DeCarlo, *Resumes For Dummies*, 9th ed., John Wiley & Sons, 2026. Methodology adapted from chapters covering ATS, reverse chronology, Core and OnTarget resumes, CAR evidence, AI safeguards, resume language, new-graduate strategy, and final resume review.
 - [OpenAI Developers: Codex use cases — Save workflows as skills](https://developers.openai.com/codex/use-cases). Used for Codex skill packaging direction.
 
-### README presentation inspiration
-
-- [mattpocock/skills](https://github.com/mattpocock/skills) — concise value proposition, fast installation path, and problem-to-solution organization.
-- [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) — clear capability matrix, practical workflow explanation, and progressive technical detail.
 
 This repository does not redistribute source book. Resume guidance cannot guarantee ATS ranking, interviews, or offers.
