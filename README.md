@@ -24,7 +24,7 @@ ResumeDom is a Codex skill for reviewing, rewriting, tailoring, and generating e
 Ask Codex to install skill directly from GitHub:
 
 ```text
-Use $skill-installer to install https://github.com/weeelin98/ResumeReviewer/tree/main/resume-reviewer
+Use $skill-installer to install https://github.com/weeelin98/ResumeDom/tree/main/resume-reviewer
 ```
 
 Start with one of these prompts:
@@ -50,7 +50,7 @@ Skill becomes available on next Codex turn after installation.
 
 ```bash
 python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
-  --repo weeelin98/ResumeReviewer \
+  --repo weeelin98/ResumeDom \
   --path resume-reviewer
 ```
 
@@ -61,8 +61,8 @@ Installer places skill at `${CODEX_HOME:-$HOME/.codex}/skills/resume-reviewer`. 
 Use a symbolic link when local `git pull` updates should become available without reinstalling:
 
 ```bash
-git clone https://github.com/weeelin98/ResumeReviewer.git
-ln -s "$(pwd)/ResumeReviewer/resume-reviewer" "${CODEX_HOME:-$HOME/.codex}/skills/resume-reviewer"
+git clone https://github.com/weeelin98/ResumeDom.git
+ln -s "$(pwd)/ResumeDom/resume-reviewer" "${CODEX_HOME:-$HOME/.codex}/skills/resume-reviewer"
 ```
 
 Create link only when destination does not already exist. Start a new Codex turn after installing or updating skill.
