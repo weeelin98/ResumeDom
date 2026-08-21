@@ -186,9 +186,5 @@ resume-reviewer/
 - Laura DeCarlo，《*Resumes For Dummies*》，第 9 版，John Wiley & Sons，2026。主要参考 ATS、倒序格式、Core/OnTarget Resume、CAR 证据、AI 防幻觉、简历语言、新毕业生策略和最终审校相关章节。
 - [OpenAI Developers：Codex use cases — Save workflows as skills](https://developers.openai.com/codex/use-cases)，用于 Codex skill 目录结构与使用方式参考。
 
-### README 版式参考
-
-- [mattpocock/skills](https://github.com/mattpocock/skills) — 参考简洁的价值主张、快速安装路径和问题到方案的组织方式。
-- [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) — 参考清晰的功能矩阵、工作流说明和渐进式技术细节。
 
 本仓库不重新分发参考书 PDF。任何简历方法都不能保证 ATS 排名、面试或录用结果。
