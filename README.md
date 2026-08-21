@@ -17,9 +17,9 @@ ResumeReviewer is an evidence-first Codex skill for US technology resumes. It as
 
 > One source of truth for career facts; one focused resume for each application.
 
-**[Quick start](#quick-start-30-seconds) · [Workflow](#how-it-works) · [Capabilities](#what-it-does) · [Resume modes](#two-resume-modes) · [LaTeX](#editable-latex-output) · [Rules](#opinionated-project-rules)**
+**[Quick start](#quick-start） · [Workflow](#how-it-works) · [Capabilities](#what-it-does) · [Resume modes](#two-resume-modes) · [LaTeX](#editable-latex-output) · [Rules](#opinionated-project-rules)**
 
-## Quick start (30 seconds)
+## Quick start 
 
 Ask Codex to install skill directly from GitHub:
 
